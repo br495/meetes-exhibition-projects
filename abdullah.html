@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="h-100" data-bs-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.122.0" />
+    <title>
+      الكشف المبكر عن الأزمات النفسية والتنبؤ بها باستخدام تقنيات الذكاء
+      الإصطناعي
+    </title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@docsearch/css@3"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css"
+      integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap");
+
+      * {
+        font-family: Readex Pro;
+      }
+
+      body {
+        background-color: #e5e7e6;
+      }
+
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, 0.1);
+        border: solid rgba(0, 0, 0, 0.15);
+        border-width: 1px 0;
+        box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+          inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -0.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+
+      .bd-mode-toggle .dropdown-menu .active .bi {
+        display: block !important;
+      }
+
+      .btn {
+        width: 100%;
+        height: 100px;
+        font-size: 20px;
+        font-weight: bold;
+        border-color: #355e99;
+        border-radius: 35px;
+        background-color: #355e99;
+      }
+
+      .btn:hover {
+        border-color: rgb(43, 84, 143);
+        background-color: rgb(43, 84, 143);
+      }
+
+      .btn:active {
+        border-color: rgb(33, 74, 133) !important;
+        background-color: rgb(33, 74, 133) !important;
+      }
+
+      .btn:focus-visible {
+        border-color: rgb(43, 84, 143) !important;
+        background-color: rgb(43, 84, 143) !important;
+        box-shadow: 0 0 0 0.25rem rgba(43, 84, 143, 0.5) !important;
+      }
+
+      .modal-body {
+        line-height: 40px;
+      }
+    </style>
+
+    <link href="cover.css" rel="stylesheet" />
+  </head>
+  <body class="h-100 text-center">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="mb-auto">
+        <div>
+          <h3 class="mb-0">
+            الكشف المبكر عن الأزمات النفسية والتنبؤ بها باستخدام تقنيات الذكاء
+            الإصطناعي
+          </h3>
+        </div>
+      </header>
+
+      <main class="px-3">
+        <div class="container text-center mb-4">
+          <div class="row">
+            <div class="col">
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modal"
+                data-title="المقدمة"
+                data-content="في الآونة الأخيرة، نشهد ارتفاعًا ملحوظًا في عدد الأشخاص المصابين بالأزمات النفسية، وخاصة في مرحلة المراهقة. يعود ذلك إلى قلة الوعي بالأزمات النفسية في مجتمعاتنا، مما يجعل المصابين غير مدركين لمشكلتهم. وقد يشعر البعض بوجود مشكلة، ولكنهم لا يولونها اهتمامًا حتى تصل إلى مراحل تؤدي إلى تفكير إجرامي أو انتحاري، مسببين الأذى لأنفسهم ولمحيطهم.
+                وتعتبر الصحة النفسية جانبًا أساسيًا من الصحة العامة، ولكنها غالبًا ما تُهمل. في مجتمعاتنا، لا يزال الحديث عن الأزمات النفسية محاطًا بالكثير من النفور الاجتماعي وسوء الفهم. هذا النقص في الوعي والفهم يؤدي إلى تجاهل العلامات المبكرة للأزمات النفسية، مما يتيح للمشكلات النفسية الفرصة للتفاقم بمرور الوقت. يمكن أن تكون هذه الأزمات مدمرة بشكل خاص للمراهقين، الذين يمرون بمرحلة حساسة من تطورهم العاطفي والعقلي. لذلك، من الضروري إيجاد طرق فعالة للكشف المبكر عن الأزمات النفسية وتوفير الدعم اللازم للأفراد المتأثرين."
+              >
+                المقدمة
+              </button>
+            </div>
+            <div class="col">
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modal"
+                data-title="الهدف"
+                data-content="يهدف هذا المشروع إلى تطوير نظام ذكي يعتمد على تقنيات الذكاء الاصطناعي للكشف المبكر عن الأزمات النفسية وتقديم الدعم المناسب للمصابين بها. يسعى المشروع إلى توفير أداة فعالة وسهلة الاستخدام لمراقبة المؤشرات الفسيولوجية والسلوكية للأفراد، وتحليلها بشكل دقيق لتحديد وجود أية مشكلة نفسية محتملة في مراحلها المبكرة."
+              >
+                الهدف
+              </button>
+            </div>
+            <div class="col">
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modal"
+                data-title="الملخص"
+                data-content="يهدف هذا المشروع إلى تطوير نظام ذكي يعتمد على تقنيات الذكاء الاصطناعي للكشف المبكر عن الأزمات النفسية وتقديم الدعم المناسب. يأتي هذا المشروع استجابة للتحديات المتزايدة التي يواجها المجتمع مع ارتفاع معدلات الأزمات النفسية، ونقص الوعي الكافي بطرق التعامل معها. يسعى المشروع إلى توفير وسيلة مبتكرة للتعرف على الأزمات النفسية قبل تفاقمها، بهدف تقديم تدخل سريع وفعال يحسن من حياة الأفراد المتأثرين.
+                يركز المشروع على كيفية استخدام الذكاء الاصطناعي لتحسين الكشف المبكر عن الأزمات النفسية وتوفير الدعم المناسب. يعتمد المشروع على جمع البيانات من أجهزة مثل الهواتف الذكية، الأجهزة القابلة للارتداء، والمنازل الذكية، حيث يتم تحليل هذه البيانات باستخدام تقنيات معالجة اللغة الطبيعية والتعلم الآلي. من خلال تحويل البيانات إلى كلمات مفتاحية، يتم إدخالها في نماذج تنبؤية تساعد في تحديد الحالات المحتملة للأزمات النفسية، مع مراقبة النتائج بشكل دوري وتقديم تقارير شاملة للمختصين لاقتراح الأطباء المناسبين.
+                من المتوقع أن يسهم المشروع في تحسين دقة وسرعة اكتشاف الأزمات النفسية، وتقديم تدخل مبكر للحالات المحتملة، مما قد يقلل من معدلات الانتحار والتصرفات المرتبطة بالأزمات النفسية. من خلال هذه الجهود، يمكن تحسين جودة الحياة للأفراد والمجتمعات بشكل كبير. كما يأخذ المشروع بعين الاعتبار أهمية الخصوصية والاعتبارات الأخلاقية، لضمان قبول المستخدمين لهذه الحلول وتبنيها كجزء من التعامل الإيجابي مع الأزمات النفسية.
+                "
+              >
+                الملخص
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="container text-center mb-4">
+          <div class="row">
+            <div class="col">
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modal"
+                data-title="تحليل المشكلة"
+                data-content="تعد الصحة النفسية أحد أهم جوانب الصحة العامة للإنسان، حيث تؤثر بشكل كبير على جودة الحياة والأداء الوظيفي والعلاقات الاجتماعية. ومع ذلك، فإن الاضطرابات النفسية لا تزال تشكل تحديًا كبيرًا للأنظمة الصحية حول العالم، حيث تشير التقديرات إلى أن حوالي 970 مليون شخص يعانون من اضطراب نفسي على مستوى العالم.
+                أهمية الكشف المبكر:<br>
+                يعد الكشف المبكر عن الأزمات والاضطرابات النفسية أمرًا بالغ الأهمية لعدة أسباب:<br>
+                1.	تحسين فرص العلاج: كلما تم الكشف عن المشكلة النفسية في وقت مبكر، زادت فرص نجاح العلاج وتحسن الحالة.<br>
+                2.	الحد من المضاعفات: يمكن أن يؤدي التأخر في التشخيص والعلاج إلى تفاقم الأعراض وظهور مضاعفات إضافية مثل الإدمان أو الاكتئاب الشديد.<br>
+                3.	تقليل العبء الاقتصادي: الكشف المبكر يساهم في تقليل تكاليف الرعاية الصحية على المدى الطويل.<br>
+                4.	الوقاية من الانتحار: يمكن أن يساعد التدخل المبكر في منع تطور الأفكار الانتحارية وتقليل أخطار الانتحار.<br>
+                تحديات الكشف المبكر التقليدي:<br>
+                على الرغم من أهمية الكشف المبكر، إلا أن هناك العديد من التحديات التي تواجه الأساليب التقليدية:<br>
+                1.	الوصمة الاجتماعية: قد يتردد الأفراد في طلب المساعدة بسبب الخوف من الوصم المجتمعي المرتبط بالأمراض النفسية.<br>
+                2.	نقص الوعي: قد لا يدرك الأفراد أنهم يعانون من مشكلة نفسية أو قد لا يعرفون كيفية التعرف على الأعراض المبكرة.<br>
+                3.	محدودية الموارد: قد لا تتوفر خدمات الصحة النفسية بشكل كافٍ في جميع المناطق، مما يحد من فرص الكشف المبكر.<br>
+                4.	التكلفة: قد تكون تكاليف الفحوصات النفسية الدورية مرتفعة، مما يجعلها غير متاحة للجميع.<br>
+                دور الذكاء الاصطناعي في الكشف المبكر:<br>
+                في ظل هذه التحديات، يبرز دور تقنيات الذكاء الاصطناعي كأداة واعدة للكشف المبكر عن الأزمات النفسية. يمكن للذكاء الاصطناعي المساهمة في هذا المجال من خلال:<br>
+                1.	تحليل البيانات الضخمة: يمكن للخوارزميات تحليل كميات هائلة من البيانات الفسيولوجية والسلوكية للكشف عن أنماط قد تشير إلى وجود مشكلة نفسية.<br>
+                2.	الرصد المستمر: يمكن لتطبيقات الهواتف الذكية وأجهزة ارتداء القابلة للارتداء جمع البيانات بشكل مستمر، مما يوفر صورة أكثر شمولاً عن حالة الفرد النفسية.<br>
+                3.	التنبؤ بالمخاطر: يمكن لنماذج التعلم الآلي التنبؤ بمخاطر تطور الاضطرابات النفسية بناءً على عوامل متعددة.<br>
+                4.	التشخيص المساعد: يمكن للذكاء الاصطناعي دعم الأطباء في عملية التشخيص من خلال تحليل الأعراض وتاريخ المريض.<br>
+                5.	التدخل الفوري: يمكن لأنظمة الذكاء الاصطناعي توفير دعم فوري عند اكتشاف مؤشرات الخطر، مثل تقديم موارد للمساعدة الذاتية أو الاتصال بخدمات الطوارئ.<br>
+                <br>
+                تقنيات الذكاء الاصطناعي المساعدة في المجال:<br>
+                1.	معالجة اللغة الطبيعية (NLP): تستخدم لتحليل المحتوى النصي، مثل المنشورات على وسائل التواصل الاجتماعي أو المحادثات مع الروبوتات الدردشة، للكشف عن مؤشرات الضيق النفسي.<br>
+                2.	التعلم العميق: يستخدم في تحليل الصور ومقاطع الفيديو للكشف عن تعبيرات الوجه والإيماءات التي قد تشير إلى حالات نفسية معينة.<br>
+                3.	أنظمة الخبرة: تستخدم لمحاكاة عملية صنع القرار البشري في تشخيص الاضطرابات النفسية.<br>
+                4.	شبكات الاستدلال البياني: تستخدم لنمذجة العلاقات المعقدة بين العوامل المختلفة التي تؤثر على الصحة النفسية.<br>
+                المؤشرات والبيانات المستخدمة:<br>
+                يمكن لأنظمة الذكاء الاصطناعي جمع وتحليل مجموعة متنوعة من البيانات للكشف عن الأزمات النفسية المحتملة:<br>
+                1.	البيانات الفسيولوجية: مثل معدل ضربات القلب، وتغيرات ضغط الدم، ونمط النوم، ومستويات النشاط البدني.<br>
+                2.	البيانات السلوكية: مثل أنماط استخدام الهاتف الذكي، والتفاعلات الاجتماعية، وعادات التصفح على الإنترنت.<br>
+                3.	البيانات اللغوية: تحليل المحتوى اللغوي للكشف عن التغيرات في الحالة المزاجية أو الأفكار السلبية.<br>
+                4.	البيانات الصوتية: تحليل نبرة الصوت وإيقاعه للكشف عن مؤشرات الاكتئاب أو القلق.<br>
+                5.	البيانات البصرية: تحليل تعبيرات الوجه وحركات الجسم للكشف عن الحالات العاطفية.<br>
+                التحديات والاعتبارات الأخلاقية:<br>
+                على الرغم من الإمكانات الواعدة للذكاء الاصطناعي في الكشف المبكر عن الأزمات النفسية، إلا أن هناك عدة تحديات واعتبارات أخلاقية يجب مراعاتها:<br>
+                1.	الخصوصية وأمن البيانات: ضمان حماية البيانات الشخصية والطبية الحساسة.<br>
+                2.	الموافقة المستنيرة: ضمان فهم المستخدمين لكيفية جمع بياناتهم واستخدامها.<br>
+                3.	دقة التشخيص: ضمان أن أنظمة الذكاء الاصطناعي لا تؤدي إلى تشخيصات خاطئة أو إنذارات كاذبة.<br>
+                4.	العدالة والتحيز: ضمان أن الخوارزميات لا تتحيز ضد مجموعات معينة بناءً على العرق أو الجنس أو العوامل الأخرى.<br>
+                5.	التكامل مع الرعاية الصحية التقليدية: ضمان أن أنظمة الذكاء الاصطناعي تكمل ولا تحل محل التقييم السريري البشري.<br>
+                تطور استخدام الذكاء الاصطناعي في الصحة النفسية:<br>
+                بدأ استخدام الذكاء الاصطناعي في مجال الصحة النفسية منذ سبعينيات القرن الماضي، مع تطوير نظام ELIZA الذي صممه جوزيف وايزنباوم في معهد ماساتشوستس للتكنولوجيا. كان ELIZA أول برنامج محادثة يحاكي معالجًا نفسيًا، وعلى الرغم من بساطته، فقد أثار اهتمامًا كبيرًا بإمكانيات استخدام التكنولوجيا في مجال الصحة النفسية.<br>
+                منذ ذلك الحين، شهد المجال تطورات كبيرة، خاصة مع ظهور تقنيات التعلم الآلي والتعلم العميق. فيما يلي بعض الدراسات والتطبيقات الهامة:<br>
+                <br>
+                1.	تحليل وسائل التواصل الاجتماعي:<br>
+                دراسة دي تشودري وآخرون. كانت رائدة في استخدام بيانات وسائل التواصل الاجتماعي للتنبؤ بالاكتئاب. قام الباحثون بتحليل منشوراتTwitter لـ 476 مستخدمًا وتمكنوا من التنبؤ بظهور الاكتئاب بدقة تصل إلى 70%.<br>
+                في دراسة لاحقة، استخدم ريس ودانفورث صور Instagram للكشف عن مؤشرات الاكتئاب. وجدوا أن الصور التي ينشرها الأشخاص المصابون بالاكتئاب تميل إلى أن تكون أكثر قتامة وأقل تشبعًا باللون، مع استخدام أقل للمرشحات.<br>
+                2.	تحليل الصوت والكلام:<br>
+                قام شيرر وآخرون بتطوير نظام يستخدم تحليل الصوت للكشف عن الاكتئاب. من خلال تحليل خصائص مثل نبرة الصوت وسرعة الكلام، تمكن النظام من تحديد الاكتئاب بدقة تصل إلى 75%.<br>
+                في دراسة أخرى، استخدم Quatieri et al تقنيات معالجة الإشارات الرقمية لتحليل الكلام وكشف التغيرات في الحالة المزاجية لدى المرضى الذين يعانون من اضطراب ثنائي القطب.<br>
+                3.	تحليل تعبيرات الوجه:<br>
+                طور ترون وآخرون نظامًا يستخدم تقنيات رؤية الحاسوب لتحليل تعبيرات الوجه والكشف عن مؤشرات الاكتئاب. وجدوا أن الأشخاص المصابين بالاكتئاب يميلون إلى إظهار تعبيرات وجه أقل تنوعًا وحيوية.<br>
+                4.	تحليل البيانات الفسيولوجية:<br>
+                قام جاكوبسون وآخرون بتطوير خوارزمية تعلم آلي تستخدم بيانات تخطيط كهربية الدماغ (EEG) للتنبؤ بخطر الانتحار. حققت الخوارزمية دقة تصل إلى 87% في تحديد الأفراد المعرضين لخطر الانتحار.<br>
+                <br>
+                5.	روبوتات المحادثة (Chatbots):<br>
+                طور فيتزباتريك وآخرون روبوت محادثة يسمى Woebot مصمم لتقديم العلاج المعرفي السلوكي. في تجربة استمرت لمدة أسبوعين، وجدوا أن المشاركين الذين استخدموا Woebot أظهروا انخفاضًا كبيرًا في أعراض الاكتئاب مقارنة بمجموعة التحكم.<br>
+                6.	أنظمة الدعم القائمة على الهواتف الذكية:<br>
+                قام توروس وآخرون بتطوير تطبيق للهاتف الذكي يجمع بيانات سلوكية مثل أنماط النوم والنشاط البدني واستخدام الهاتف للتنبؤ بنوبات الاكتئاب. وجدوا أن النظام يمكنه التنبؤ بالتغيرات في الأعراض قبل أسبوعين من ظهورها.<br>
+                7.	الشبكات العصبية العميقة:<br>
+                استخدم Kessler et al شبكات عصبية عميقة لتحليل السجلات الطبية الإلكترونية والتنبؤ بخطر الانتحار. تمكن النموذج من تحديد الأفراد المعرضين لخطر الانتحار بدقة تفوق الأساليب التقليدية.<br>
+                8.	تحليل النصوص:<br>
+                قام كوبر سميث وآخرون بتطوير نموذج تعلم آلي يحلل المنشورات على وسائل التواصل الاجتماعي للكشف عن مؤشرات اضطراب ما بعد الصدمة (PTSD) حقق النموذج دقة تصل إلى 89% في تحديد الأفراد الذين يعانون من PTSD.<br>
+                التحديات والاتجاهات المستقبلية:<br>
+                على الرغم من التقدم الكبير في هذا المجال، لا تزال هناك تحديات عديدة:<br>
+                1.	جودة البيانات: يشير موهر وآخرون إلى أن جودة البيانات المستخدمة في تدريب نماذج الذكاء الاصطناعي تظل تحديًا رئيسيًا. هناك حاجة إلى بيانات أكثر تمثيلاً وشمولاً لضمان دقة وعدالة النماذج.<br>
+                2.	التفسير: يؤكد دواير وآخرون على أهمية تطوير نماذج ذكاء اصطناعي قابلة للتفسير في مجال الصحة النفسية. هذا أمر ضروري لبناء الثقة بين المرضى والأطباء وضمان المساءلة.<br>
+                3.	التكامل مع الرعاية السريرية: يشدد توروس وهسين على ضرورة تطوير أساليب لدمج أدوات الذكاء الاصطناعي بشكل فعال في ممارسات الرعاية السريرية القائمة.<br>
+                4.	الخصوصية والأمان: يناقش مارتينيز مارتن وكريتماير التحديات الأخلاقية المتعلقة بجمع واستخدام البيانات الحساسة في تطبيقات الصحة النفسية القائمة على الذكاء الاصطناعي.<br>
+                الاتجاهات المستقبلية تشمل:<br>
+                1.	الطب الشخصي: يتوقع بزدوك وماير ليندنبرغ أن يؤدي الذكاء الاصطناعي إلى تطوير علاجات أكثر تخصيصًا بناءً على البيانات الفردية للمرضى.<br>
+                2.	التنبؤ في الوقت الفعلي: يشير هوكفيل وآخرون إلى إمكانية تطوير أنظمة تنبؤ في الوقت الفعلي يمكنها التنبؤ بالأزمات النفسية قبل حدوثها بوقت كافٍ للتدخل.<br>
+                3.	الدمج مع التقنيات الأخرى: يتوقع توبول دمج تقنيات الذكاء الاصطناعي مع التقنيات الأخرى مثل الواقع الافتراضي والروبوتات لتوفير رعاية نفسية أكثر شمولاً.
+                "
+              >
+                تحليل المشكلة
+              </button>
+            </div>
+            <div class="col">
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modal"
+                data-title="تحويل المشكلة إلى تحدي"
+                data-content="كيف يمكن لتقنيات الذكاء الاصطناعي أن تساهم في الكشف المبكر عن الأزمات النفسية وتقديم الدعم المناسب، في ظل التحديات المتعلقة بنقص الوعي الاجتماعي، تزايد الضغوطات النفسية، وعدم وجود أدوات فعالة للمراقبة والتحليل؟"
+              >
+                تحويل المشكلة إلى تحدي
+              </button>
+            </div>
+            <div class="col">
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modal"
+                data-title="توليد الأفكار"
+                data-content="• جمع البيانات وتحليلها:<br>
+                •	الأجهزة القابلة للارتداء: استخدام الساعات الذكية والخواتم الذكية المدمجة بالذكاء الاصطناعي لمراقبة المؤشرات الفسيولوجية مثل معدل ضربات القلب، أنماط النوم، ومستويات النشاط البدني.<br>
+                •	بيانات الهواتف الذكية: تحليل أنماط الاستخدام مثل تكرار الاتصالات، التفاعلات على وسائل التواصل الاجتماعي، واستخدام التطبيقات لاكتشاف التغيرات السلوكية، بما في ذلك المحتوى المستهدف على المنصات مثل تيك توك وX ويوتيوب.<br>
+                •	معالجة اللغة الطبيعية (NLP): تطبيق تقنيات NLP لتحليل الرسائل النصية، المنشورات على وسائل التواصل الاجتماعي، والتسجيلات الصوتية للبحث عن علامات الضيق أو التغيرات في المزاج.<br>
+                •	مراقبة الأنماط باستخدام المنازل الذكية: استخدام تقنيات المنازل الذكية لمراقبة الأنشطة اليومية للأفراد مثل التحركات داخل المنزل، مدة العزلة، وأنماط النوم والتغذية.<br>
+                • تحويل البيانات إلى كلمات مفتاحية وإدخالها إلى عملية النمذجة التنبؤية:<br>
+                •	تحويل البيانات المجمعة إلى كلمات مفتاحية تتناسب مع حالة المريض مثل (انطوائي، قليل التفاعل مع المجتمع، صاحب فكر انتحاري).<br>
+                •	إدخال الكلمات المفتاحية في نموذج ذكاء اصطناعي لتحليل اللغة الطبيعية لتقديم تحليل يتنبأ بالحالة النفسية، مع إنتاج نسبة مئوية لاحتمالية وجود مشكلة.<br>
+                • تسجيل البيانات ومراقبتها:<br>
+                •	تسجيل النسبة المئوية بشكل دوري في قاعدة بيانات لمقارنة النتائج الحديثة بالسابقة.<br>
+                •	توجيه الشخص إلى طبيب نفسي عند التنبؤ ببداية اكتئاب، وإبلاغ الجهات المعنية في حال تدهور الحالة وظهور فكر إجرامي أو انتحاري.<br>
+                • إنشاء تقارير شاملة تُقدم للمختصين:<br>
+                •	يقوم النظام بجمع بيانات شاملة عن الشخص من خلال المراقبة المستمرة للمؤشرات الفسيولوجية والسلوكية.<br>
+                •	يساعد هذا التقرير الأطباء النفسيين في فهم حالة المريض بوضوح، حتى إذا كان المريض يواجه صعوبة في وصف مشكلته أو التحدث بصدق.<br>
+                • اقتراح الأطباء المناسبين:<br>
+                •	بناءً على البيانات الشخصية والنفسية التي يجمعها النظام، يقدم اقتراحات مخصصة حول الأطباء النفسيين المناسبين لحالة المريض.
+                "
+              >
+                توليد الأفكار
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="container text-center mb-4">
+          <div class="row">
+            <div class="col">
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modal"
+                data-title="دمج الأفكار"
+                data-content="استخدام الذكاء الاصطناعي على النحو التالي:<br>
+                الخطوة الأولى: جمع البيانات وتحليلها من خلال الأجهزة التالية:<br>
+                • الأجهزة القابلة للارتداء:<br>
+                استخدام أجهزة مثل الساعات الذكية والخواتم الذكية المدمجة بالذكاء الاصطناعي لمراقبة المؤشرات الفسيولوجية مثل معدل ضربات القلب، أنماط النوم، ومستويات النشاط البدني.<br>
+                • بيانات الهواتف الذكية:<br>
+                تحليل أنماط الاستخدام، بما في ذلك تكرار الاتصالات، التفاعلات على وسائل التواصل الاجتماعي، واستخدام التطبيقات لاكتشاف التغيرات السلوكية. والمحتوى المستهدف في المنصات مثل تيك توك وX ويوتيوب وغيرها.<br>
+                • معالجة اللغة الطبيعية (NLP):<br>
+                تطبيق تقنيات معالجة اللغة الطبيعية لتحليل الرسائل النصية، المنشورات على وسائل التواصل الاجتماعي، والتسجيلات الصوتية للبحث عن علامات الضيق أو التغيرات في المزاج، بما في ذلك المحادثات في وسائل التواصل مثل واتساب.<br>
+                • مراقبة الأنماط باستخدام المنازل الذكية:<br>
+                استخدام المنازل الذكية لمراقبة الأنماط السلوكية؛ فالمنازل الذكية مجهزة بأجهزة استشعار وتقنيات متقدمة يمكنها تتبع الأنشطة اليومية للأفراد، مثل تحركاتهم داخل المنزل، ومدة الوقت الذي يقضونه في العزلة، وأنماط نومهم وتغذيتهم. على سبيل المثال، إذا كان الشخص يقضي وقتًا طويلًا بمفرده في غرفة معينة أو ينام لفترات غير منتظمة، فقد تكون هذه علامات على وجود مشكلة نفسية.<br>
+                الخطوة الثانية: تحويل البيانات إلى كلمات مفتاحية وإدخالها إلى عملية النمذجة التنبؤية:<br>
+                بعد جمع الكمية الهائلة من البيانات، يتم تحويلها إلى كلمات مفتاحية تتناسب مع حالة المريض (مثل: انطوائي، قليل التفاعل مع المجتمع، صاحب فكر انتحاري). ثم تُدخل هذه الكلمات إلى نموذج ذكاء اصطناعي لتحليل اللغة الطبيعية، الذي يقوم بدوره بتحليل الكلمات والتنبؤ بحالة الشخص، وينتج نسبة مئوية تبين احتمال وجود مشكلة نفسية لدى الشخص.<br>
+                الخطوة الثالثة: تسجيل البيانات ومراقبتها:<br>
+                يتم تسجيل النسبة المئوية بشكل دوري في قاعدة بيانات للمريض، ومقارنة النتائج الحديثة بالسابقة للتأكد من الحالة. في حال التنبؤ ببداية اكتئاب لدى الشخص، يتم تحذيره وتوجيهه إلى طبيب نفسي. أما في حال اكتشاف تدهور في حالة الشخص وظهور فكر إجرامي أو انتحاري، يتم إبلاغ الجهات المعنية.
+                "
+              >
+                دمج الأفكار
+              </button>
+            </div>
+            <div class="col">
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modal"
+                data-title="النموذج الأولي"
+                data-content="<img src='https://i.ibb.co/7Ck09hR/i-Phone-Kit-Community-1.png' border='0'></a>"
+              >
+                النموذج الأولي
+              </button>
+            </div>
+            <div class="col">
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modal"
+                data-title="التكلفة المتوقعة"
+                data-content="•	تكاليف التطوير: 3 مليون و500 ألف ريال سعودي (تشمل فريق البرمجة، علماء البيانات، خبراء الصحة النفسية، التراخيص والبنية التحتية).<br>
+                •	التكاليف التشغيلية السنوية: مليون و750 ألف ريال سعودي (تشمل صيانة وتشغيل النظام، دعم العملاء، الاستضافة).<br>
+                •	التسويق والمبيعات: مليون و250 ألف ريال (تشمل حملات التسويق، المؤتمرات، العلاقات العامة).<br>
+                •	إجمالي السنة الأولى: 6 مليون و500 ألف ريال سعودي.
+                "
+              >
+                التكلفة المتوقعة
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="container text-center mb-4">
+          <div class="row">
+            <div class="col">
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modal"
+                data-title="خطة التسويق"
+                data-content="أ. الجمهور المستهدف: أهالي المراهقين المعرضين للأمراض النفسية.<br>
+                ب. استراتيجية التسويق:<br>
+                1.	التسويق الرقمي:<br>
+                o	موقع إلكتروني تفاعلي يعرض مزايا النظام ويوفر تجربة مجانية.<br>
+                o	حملات على وسائل التواصل الاجتماعي (Facebook, LinkedIn) لرفع الوعي بالنظام.<br>
+                o	تحسين محركات البحث (SEO) للوصول إلى المهتمين بالصحة النفسية.<br>
+                o	إنتاج محتوى قيم حول توظيف التكنولوجيا في الصحة النفسية.<br>
+                2.	التسويق التقليدي:<br>
+                o	المشاركة في المؤتمرات والمعارض الطبية لتقديم النظام وبناء علاقات مع المؤسسات الصحية.<br>
+                o	نشر مقالات في المجلات المتخصصة لزيادة الوعي بين المتخصصين.<br>
+                o	ورش عمل للمتخصصين لشرح استخدامات النظام في الرعاية.<br>
+                3.	الشراكات الاستراتيجية:<br>
+                o	التعاون مع المؤسسات الصحية الرائدة لتجربة النظام وجمع بيانات علمية توثق فعاليته، مما يعزز المصداقية ويساعد في تسويقه.<br>
+                o	الشراكة مع شركات التأمين الصحي لإدراج النظام كجزء من خطط التأمين الوقائي، مما يسهم في تحسين جودة الرعاية وتقليل التكاليف العلاجية طويلة الأمد.<br>
+                o	التعاون مع الجامعات ومراكز البحوث لإجراء دراسات علمية موثوقة تدعم نتائج النظام وتقدم توصيات مبنية على أدلة علمية، مما يعزز ثقة السوق بالنظام.<br>
+                o	التعاون مع شركات أنظمة التحكم الأبوي: لدمج النظام في أدوات الرقابة الأبوية، مما يساعد الأسر في مراقبة الحالة النفسية للأطفال والمراهقين وتقديم الدعم المبكر عند الحاجة.
+                "
+              >
+                خطة التسويق
+              </button>
+            </div>
+            <div class="col">
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modal"
+                data-title="الأهمية"
+                data-content="أهمية هذا المشروع تكمن في قدرته على تقديم حلول فعالة ومبتكرة للكشف المبكر عن الأزمات النفسية. يمكن أن تساعد هذه الحلول في تقليل معدلات الانتحار والتصرفات الإجرامية المرتبطة بالأزمات النفسية. بالإضافة إلى ذلك، يمكن أن تساهم في تحسين جودة الحياة للأفراد المتأثرين من خلال تقديم الدعم المناسب في الوقت المناسب. من خلال استخدام التكنولوجيا المتقدمة، يمكن لهذا المشروع أن يحدث تغييرًا إيجابيًا في كيفية تعامل المجتمعات مع الأزمات النفسية."
+              >
+                الأهمية
+              </button>
+            </div>
+            <div class="col">
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modal"
+                data-title="الخاتمة"
+                data-content="ختامًا، يمثل هذا المشروع خطوة مهمة نحو تحسين الصحة النفسية العامة من خلال استخدام الذكاء الاصطناعي والتكنولوجيا الحديثة. إن توفير أدوات فعالة للكشف المبكر عن الأزمات النفسية يمكن أن ينقذ الأرواح ويعزز الرفاهية النفسية للأفراد والمجتمعات. من خلال التركيز على الخصوصية والاعتبارات الأخلاقية، يمكننا ضمان أن تكون هذه الحلول آمنة ومقبولة من قبل المستخدمين."
+              >
+                الخاتمة
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modal"
+                data-title="المصادر"
+                data-content="<div dir='ltr'>[1]	Bauer, M., Glenn, T., Monteith, S., Bauer, R., Whybrow, P. C., & Geddes, J. (2017). Ethical perspectives on recommending digital technology for patients with mental illness. International journal of bipolar disorders, 5(1), 6.<br>
+                [2]	Calvo, R. A., Milne, D. N., Hussain, M. S., & Christensen, H. (2017). Natural language processing in mental health applications using non-clinical texts. Natural Language Engineering, 23(5), 649-685.<br>
+                [3]	Char, D. S., Shah, N. H., & Magnus, D. (2018). Implementing machine learning in health care—addressing ethical challenges. The New England journal of medicine, 378(11), 981.<br>
+                [4]	Chisholm, D., Sweeny, K., Sheehan, P., Rasmussen, B., Smit, F., Cuijpers, P., & Saxena, S. (2016). Scaling-up treatment of depression and anxiety: a global return on investment analysis. The Lancet Psychiatry, 3(5), 415-424.<br>
+                [5]	Cohn, J. F., Kruez, T. S., Matthews, I., Yang, Y., Nguyen, M. H., Padilla, M. T., ... & De la Torre, F. (2009). Detecting depression from facial actions and vocal prosody. In 2009 3rd International Conference on Affective Computing and Intelligent Interaction and Workshops (pp. 1-7). IEEE.<br>
+                [6]	Corrigan, P. (2004). How stigma interferes with mental health care. American psychologist, 59(7), 614.<br>
+                [7]	Cummins, N., Scherer, S., Krajewski, J., Schnieder, S., Epps, J., & Quatieri, T. F. (2015). A review of depression and suicide risk assessment using speech analysis. Speech Communication, 71, 10-49.<br>
+                [8]	De Choudhury, M., Gamon, M., Counts, S., & Horvitz, E. (2013). Predicting depression via social media. In Seventh international AAAI conference on weblogs and social media.<br>
+                [9]	Jiang, F., Jiang, Y., Zhi, H., Dong, Y., Li, H., Ma, S., ... & Wang, Y. (2017). Artificial intelligence in healthcare: past, present and future. Stroke and vascular neurology, 2(4), 230-243.<br>
+                [10]	Jorm, A. F. (2012). Mental health literacy: empowering the community to take action for better mental health. American psychologist, 67(3), 231.<br>
+                [11]	Kessler, R. C., Angermeyer, M., Anthony, J. C., De Graaf, R. O. N., Demyttenaere, K., Gasquet, I., ... & Üstün, T. B. (2007). Lifetime prevalence and age-of-onset distributions of mental disorders in the World Health Organization's World Mental Health Survey Initiative. World psychiatry, 6(3), 168.<br>
+                [12]	Bzdok, D., & Meyer-Lindenberg, A. (2018). Machine learning for precision psychiatry: opportunities and challenges. Biological Psychiatry: Cognitive Neuroscience and Neuroimaging, 3(3), 223-230.<br>
+                [13]	Coppersmith, G., Leary, R., Crutchley, P., & Fine, A. (2018). Natural language processing of social media as screening for suicide risk. Biomedical informatics insights, 10, 1178222618792860.<br>
+                [14]	Dwyer, D. B., Falkai, P., & Koutsouleris, N. (2018). Machine learning approaches for clinical psychology and psychiatry. Annual review of clinical psychology, 14, 91-118.<br>
+                [15]	Fitzpatrick, K. K., Darcy, A., & Vierhile, M. (2017). Delivering cognitive behavior therapy to young adults with symptoms of depression and anxiety using a fully automated conversational agent (Woebot): a randomized controlled trial. JMIR mental health, 4(2), e7785.<br>
+                [16]	Huckvale, K., Venkatesh, S., & Christensen, H. (2019). Toward clinical digital phenotyping: a timely opportunity to consider purpose, quality, and safety. NPJ digital medicine, 2(1), 1-11.<br>
+                [17]	Jacobson, N. C., Lekkas, D., Price, G., Heinz, M. V., Song, M., O'Malley, A. J., & Barr, P. J. (2019). Flattening the mental health curve: COVID-19 stay-at-home orders are associated with alterations in mental health search behavior in the United States. JMIR mental health, 7(6), e19347.<br>
+                [18]	Kessler, R. C., Warner, C. H., Ivany, C., Petukhova, M. V., Rose, S., Bromet, E. J., ... & Army STARRS Collaborators. (2015). Predicting suicides after psychiatric hospitalization in US Army soldiers: the Army Study to Assess Risk and Resilience in Servicemembers (Army STARRS). JAMA psychiatry, 72(1), 49-57.<br>
+                [19]	Martinez-Martin, N., & Kreitmair, K. (2018). Ethical issues for direct-to-consumer digital psychotherapy apps: addressing accountability, data protection, and consent. JMIR mental health, 5(2), e9423.<br>
+                [20]	Mohr, D. C., Zhang, M., & Schueller, S. M. (2017). Personal sensing: understanding mental health using ubiquitous sensors and machine learning. Annual review of clinical psychology, 13, 23-47.<br>
+                [21]	Quatieri, T. F., Talkar, T., & Palmer, J. S. (2020). A framework for biomarkers of COVID-19 based on coordination of speech-production subsystems. IEEE Open Journal of Engineering in Medicine and Biology, 1, 203-206.<br>
+                [22]	Reece, A. G., & Danforth, C. M. (2017). Instagram photos reveal predictive markers of depression. EPJ Data Science, 6(1), 15.<br>
+                [23]	Scherer, S., Stratou, G., Mahmoud, M., Boberg, J., Gratch, J., Rizzo, A., & Morency, L. P. (2013, April). Automatic behavior descriptors for psychological disorder analysis. In 2013 10th IEEE International Conference and Workshops on Automatic Face and Gesture Recognition (FG) (pp. 1-8). IEEE.<br>
+                [24]	Torous, J., & Hsin, H. (2018). Empowering the digital therapeutic relationship: virtual clinics for digital health interventions. NPJ digital medicine, 1(1), 1-3.<br>
+                [25]	Torous, J., Staples, P., Shanahan, M., Lin, C., Peck, P., Keshavan, M., & Onnela, J. P. (2018). Utilizing a personal smartphone custom app to assess the Patient Health Questionnaire-9 (PHQ-9) depressive symptoms in patients with major depressive disorder. JMIR mental health, 2(1), e8.<br>
+                [26]	Topol, E. J. (2019). High-performance medicine: the convergence of human and artificial intelligence. Nature medicine, 25(1), 44-56.<br>
+                [27]	Tron, T., Peled, A., Grinsphoon, A., & Weinshall, D. (2016). Facial expressions and flat affect in schizophrenia, automatic analysis from depth camera data. In 2016 IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI) (pp. 220-223). IEEE.<br>
+                [28]	Weizenbaum, J. (1966). ELIZA—a computer program for the study of natural language communication between man and machine. Communications of the ACM, 9(1), 36-45.<br>
+                [29]	Nadkarni, P. M., Ohno-Machado, L., & Chapman, W. W. (2011). Natural language processing: an introduction. JAMIA, 544–551.<br>
+                [30]	Springer, N. D. (2020). Natural Language Processing. In K. Chowdhary, Fundamentals of Artificial Intelligence (pp. 603–649). Springer New Delhi.</div>
+                "
+              >
+                المصادر
+              </button>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="mt-auto">
+        <p>المبتكر الواعد: عبدالله باعامر</p>
+      </footer>
+    </div>
+
+    <div
+      class="modal modal-xl fade"
+      id="modal"
+      tabindex="-1"
+      aria-labelledby="modalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="btn-close invisible"></div>
+            <h1 class="modal-title fs-2" id="modalLabel">Modal title</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body text-break fs-5">...</div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      $("#modal").on("show.bs.modal", function (event) {
+        var title = $(event.relatedTarget).data("title");
+        var text = $(event.relatedTarget).data("content");
+        $(this).find(".modal-title").html(title);
+        $(this).find(".modal-body").html(text);
+      });
+    </script>
+  </body>
+</html>
